@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navy{
+    background-image: url('/Portfolio/images/header.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero {
+    background-image: url('/Portfolio/images/porfoltio.png'); 
+    background-size: cover; /* Ensure the image covers the entire hero section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero img{
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#projects .card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+}
+
+#contact form input, #contact form textarea {
+    margin-bottom: 15px;
+}
+
+/* Add any additional styles here */
